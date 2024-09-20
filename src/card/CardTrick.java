@@ -19,10 +19,10 @@ public class CardTrick {
             magicHand[i] = c;
         }
 
-        Card luckyCard = new Card();
-        luckyCard.setValue(2);  
+           Card luckyCard = new Card();
+        luckyCard.setValue(4);  
         luckyCard.setSuit("Clubs"); 
-        magicHand[6] = luckyCard;
+        magicHand[5] = luckyCard;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a card value (1-13):");
